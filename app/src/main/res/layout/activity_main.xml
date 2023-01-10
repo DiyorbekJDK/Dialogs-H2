@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bntcongrats"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4FE355"
+            android:text="Congrats Button" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bntLose"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF1100"
+            android:text="Lose Button" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/bntWin"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FFC107"
+            android:text="Win Button" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
